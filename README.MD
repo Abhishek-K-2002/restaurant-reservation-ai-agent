@@ -1,10 +1,10 @@
-#FoodieSpot AI Reservation Agent
+**FoodieSpot AI Reservation Agent**
 
 A conversational AI agent built for **restaurant reservation and recommendation** using **Google Gemini 1.5 Flash API** + **Streamlit**, implementing a **proper tool calling architecture without LangChain or any other frameworks**.
 
 ---
 
-##Features
+**Features**
 
 -  **LLM-driven Intent Detection**:  
   Uses Gemini 1.5 Flash to classify user intent into:
