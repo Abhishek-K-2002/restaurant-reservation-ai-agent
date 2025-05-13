@@ -3,7 +3,7 @@ from llm_client import call_llm_api
 from tools import load_restaurants, recommend_restaurant_ui, book_table_ui, handle_greeting
 import json
 
-st.title("🍽️ FoodieSpot Reservation AI Assistant")
+st.title("FoodieSpot Reservation AI Assistant")
 
 restaurants = load_restaurants()
 
@@ -16,7 +16,7 @@ if user_input:
         intent = llm_response_json['intent']
     except Exception as e:
         st.error(f"LLM returned invalid response: {llm_response}")
-        st.warning("⚠️ Sorry, I didn't understand that. Please try again.")
+        st.warning("Sorry, I didn't understand that. Please try again.")
         st.stop()
 
 
@@ -27,4 +27,4 @@ if user_input:
     elif intent == "greeting":
         st.write(handle_greeting(user_input))
     else:
-        st.warning("⚠️ Sorry, I didn't understand that. Please try again.")
+        st.warning("Sorry, I didn't understand that. Please try again.")
