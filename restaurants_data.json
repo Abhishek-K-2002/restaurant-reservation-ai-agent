@@ -1,0 +1,7 @@
+[
+  {"name": "Royal Dine", "cuisine": "Indian", "capacity": 50},
+  {"name": "Sushi World", "cuisine": "Japanese", "capacity": 30},
+  {"name": "Pasta House", "cuisine": "Italian", "capacity": 40},
+  {"name": "Burger Hub", "cuisine": "American", "capacity": 60},
+  {"name": "Curry Express", "cuisine": "Indian", "capacity": 35}
+]
